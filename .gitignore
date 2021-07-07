@@ -1,3 +1,6 @@
+# Results. You may want to de-ignore important results specifically.
+results
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
