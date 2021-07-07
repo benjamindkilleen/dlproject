@@ -2,14 +2,10 @@
  
 # Deep Learning Project Template
 
-<!-- [![Paper](http://img.shields.io/badge/paper-arxiv.1803.08606-B31B1B.svg)](https://arxiv.org/) -->
-
 [![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://github.com/benjamindkilleen/dlproject/releases/)
-[![GitHub release](https://img.shields.io/github/release/benjamindkilleen/dlproject.js.svg)](https://github.com/benjamindkilleen/dlproject/releases/)
+[![GitHub release](https://img.shields.io/github/release/benjamindkilleen/dlproject.svg)](https://github.com/benjamindkilleen/dlproject/releases/)
 [![PyPI](https://img.shields.io/pypi/v/dlproject)](https://pypi.org/project/dlproject/)
-[![PyPI version shields.io](https://img.shields.io/pypi/v/dlproject.svg)](https://pypi.python.org/pypi/dlproject/)
-[![PyPI license](https://img.shields.io/pypi/l/dlproject.svg)](https://pypi.python.org/pypi/dlproject/)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/dlproject.svg)](https://pypi.python.org/pypi/dlproject/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation Status](https://readthedocs.org/projects/dlproject/badge/?version=latest)](http://dlproject.readthedocs.io/?badge=latest)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/benjamindkilleen/blob/main/run.ipynb)
