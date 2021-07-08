@@ -2,13 +2,27 @@
  
 # Deep Learning Project Template
 
-[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://github.com/benjamindkilleen/dlproject/releases/)
-[![GitHub release](https://img.shields.io/github/release/benjamindkilleen/dlproject.svg)](https://github.com/benjamindkilleen/dlproject/releases/)
-[![PyPI](https://img.shields.io/pypi/v/dlproject)](https://pypi.org/project/dlproject/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation Status](https://readthedocs.org/projects/dlproject/badge/?version=latest)](http://dlproject.readthedocs.io/?badge=latest)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/benjamindkilleen/blob/main/run.ipynb)
+<a href="https://github.com/benjamindkilleen/dlproject/releases/">
+    <img src="https://img.shields.io/github/downloads/benjamindkilleen/dlproject/total.svg" alt="Downloads" />
+</a>
+<a href="https://github.com/benjamindkilleen/dlproject/releases/">
+    <img src="https://img.shields.io/github/release/benjamindkilleen/dlproject.svg" alt="GitHub release" />
+</a>
+<a href="https://pypi.org/project/dlproject/">
+    <img src="https://img.shields.io/pypi/v/dlproject" alt="PyPI" />
+</a>
+<a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+</a>
+<a href="http://dlproject.readthedocs.io/?badge=latest">
+    <img src="https://readthedocs.org/projects/dlproject/badge/?version=latest" alt="Documentation Status" />
+</a>
+<a href="https://github.com/psf/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black" />
+</a>
+<a href="https://colab.research.google.com/github/benjamindkilleen/blob/main/run.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
+</a>
 
 _The opinionated deep learning template._
 
@@ -35,14 +49,7 @@ These instructions assume you are using a linux machine with at least one GPU (C
    cd dlproject
    ```
 
-2. Install dependencies using either Pip or [Anaconda](https://www.anaconda.com/) (preferred):
-
-   - **Pip:** Install [Pytorch](https://pytorch.org/get-started/locally/) to ensure GPU available. Then:
-
-     ```bash
-     pip install -r requirements.txt
-     pip install -e .
-     ```
+2. Install dependencies using either [Anaconda](https://www.anaconda.com/) (preferred) or Pip:
 
    - **Anaconda:** modify `environment.yml` to suit your needs. Then run:
 
@@ -51,19 +58,24 @@ These instructions assume you are using a linux machine with at least one GPU (C
      conda activate dlproject
      ```
 
-   This will create a new environment with the project installed as an edit-able package.
+     This will create a new environment with the project installed as an edit-able package.
 
-### Configure
+   - **Pip:** Install [Pytorch](https://pytorch.org/get-started/locally/) to ensure GPU available. Then:
 
-TODO: locations that need attention.
+     ```bash
+     pip install -r requirements.txt
+     pip install -e .
+     ```
 
 ## Usage
 
-The project is separated into "experiments," which are just different `main` functions using the `vertview` library. Everything should be run through hydra, specifying the `experiment` group parameter. For example:
+The project is separated into "experiments," which are just different `main` functions. Use the `experiment` group parameter to change which experiment is running. For example:
 
 ```bash
 python main.py experiment=mnist
 ```
+
+The results are then neatly sorted into the newly-created `results` directory (ignored by default). This is important for reproduceability, utilizing Hydra's automatic logging and config storage.
 
 ### Documentation
 
