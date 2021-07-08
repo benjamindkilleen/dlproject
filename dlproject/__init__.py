@@ -5,17 +5,13 @@
 This is where you should import the parts of your code that you want to be reachable.
 
 """
-
 from .experiments import register_experiment, get_experiment, run
-from .logging import configure_logging
 from . import datasets
 from . import models
 
 __all__ = [
     "register_experiment",
     "get_experiment",
-    "run",
-    "configure_logging",
     "datasets",
     "models",
 ]

@@ -15,7 +15,7 @@ setup(
         "pytorch-lightning",
         "hydra-core",
         "omegaconf",
-        "hydra_colorlog",
+        "rich",
         "numpy",
     ],
     packages=find_packages(),
