@@ -1,6 +1,6 @@
 <div align="center">    
  
-# Deep Learning Project Template
+# dlproject
 
 <a href="https://github.com/benjamindkilleen/dlproject/releases/">
     <img src="https://img.shields.io/github/downloads/benjamindkilleen/dlproject/total.svg" alt="Downloads" />
@@ -24,7 +24,7 @@
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
 </a>
 
-_An opinionated deep learning template._
+_An opinionated template for deep learning projects._
 
 _Read [the docs](https://dlproject.readthedocs.io/en/latest/)._
 
