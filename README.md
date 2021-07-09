@@ -23,6 +23,9 @@
 <a href="https://colab.research.google.com/github/benjamindkilleen/blob/main/run.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
 </a>
+<a href="https://open.vscode.dev/organization/repository">
+<img src="https://open.vscode.dev/badges/open-in-vscode.svg" alt="Open in Visual Studio Code">
+</a>
 
 _An opinionated template for deep learning projects._
 
