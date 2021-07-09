@@ -24,7 +24,9 @@
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" />
 </a>
 
-_The opinionated deep learning template._
+_An opinionated deep learning template._
+
+_Read [the docs](https://dlproject.readthedocs.io/en/latest/)._
 
 </div>
 
