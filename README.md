@@ -3,9 +3,6 @@
 # dlproject
 
 <a href="https://github.com/benjamindkilleen/dlproject/releases/">
-    <img src="https://img.shields.io/github/downloads/benjamindkilleen/dlproject/total.svg" alt="Downloads" />
-</a>
-<a href="https://github.com/benjamindkilleen/dlproject/releases/">
     <img src="https://img.shields.io/github/release/benjamindkilleen/dlproject.svg" alt="GitHub release" />
 </a>
 <a href="https://pypi.org/project/dlproject/">
@@ -28,8 +25,6 @@
 </a>
 
 _An opinionated template for deep learning projects._
-
-_Read [the docs](https://dlproject.readthedocs.io/en/latest/)._
 
 </div>
 
@@ -65,7 +60,8 @@ These instructions assume you are using a linux machine with at least one GPU (C
 
      This will create a new environment with the project installed as an edit-able package.
 
-   - **Pip:** Install [Pytorch](https://pytorch.org/get-started/locally/) to ensure GPU available. Then:
+   - **Pip:** Install [Pytorch](https://pytorch.org/get-started/locally/) to ensure GPU available.
+     Then:
 
      ```bash
      pip install -r requirements.txt
@@ -74,17 +70,22 @@ These instructions assume you are using a linux machine with at least one GPU (C
 
 ## Usage
 
-The project is separated into "experiments," which are just different `main` functions. Use the `experiment` group parameter to change which experiment is running. For example:
+The project is separated into "experiments," which are just different `main` functions. Use the
+`experiment` group parameter to change which experiment is running. For example:
 
 ```bash
 python main.py experiment=mnist
 ```
 
-The results are then neatly sorted into the newly-created `results` directory (ignored by default). This is important for reproduceability, utilizing Hydra's automatic logging and config storage.
+The results are then neatly sorted into the newly-created `results` directory (ignored by default).
+This is important for reproduceability, utilizing Hydra's automatic logging and config storage.
 
 ### Documentation
 
-Documentation and tutorials for `dlproject` are available [here](https://dlproject.readthedocs.io/). You should document your code as you go. If you use Visual Studio Code, [this](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) is an extension which will create Google style docstrings automatically.
+Documentation and tutorials for `dlproject` are available [here](https://dlproject.readthedocs.io/).
+You should document your code as you go. If you use Visual Studio Code,
+[this](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) is an extension
+which will create Google style docstrings automatically.
 
 To build the docstrings you write into a local static web-page, run
 
